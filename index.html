@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+</head>
+
+<body class="bg-gray-100">
+    <div class="flex min-h-screen">
+        <div class="w-64 bg-white min-h-screen shadow-md flex flex-col justify-between" id="sidebar">
+            <div>
+                <div class="p-4 flex items-center">
+                    <img alt="University Logo" class="w-10 h-10 mr-2" height="50" src="icon/logo.png" width="50" />
+                    <div>
+                        <h1 class="text-lg font-bold">PT. BERKAH JAYA</h1>
+                    </div>
+                </div>
+                <div class="p-4">
+                    <div class="flex items-center mb-4">
+                        <img alt="User  Avatar" class="w-10 h-10 rounded-full mr-2" height="50" src="icon/1.jpg"
+                            width="50" />
+                        <div>
+                            <p class="font-semibold">Welcome, Chairil</p>
+                            <p class="text-sm text-gray-500">Administrator</p>
+                        </div>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="mb-2">
+                                <a id="dashboardMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('dashboardMenu', 'dashboardMenu')">
+                                    <i class="fas fa-tachometer-alt mr-2"></i>
+                                    Dashboard
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="font-semibold text-gray-700 mt-4 mb-2">MENU KARYAWAN</p>
+                        <ul>
+                            <li class="mb-2">
+                                <a id="karyawanMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('karyawanPage', 'karyawanMenu')">
+                                    <i class="fas fa-users mr-2"></i>
+                                    Karyawan
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a id="jabatanMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('jabatanPage', 'jabatanMenu')">
+                                    <i class="fas fa-briefcase mr-2"></i>
+                                    Jabatan
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a id="divisiMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('divisiPage', 'divisiMenu')">
+                                    <i class="fas fa-building mr-2"></i>
+                                    Divisi
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="font-semibold text-gray-700 mt-4 mb-2">MENU ABSENSI</p>
+                        <ul>
+                            <li class="mb-2">
+
+                                <a id="absensiMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('absensiPage', 'absensiMenu'); event.preventDefault();">
+
+                                    <i class="fas fa-calendar mr-2"></i>
+                                    Absensi
+
+                                </a>
+
+                            </li>
+                            <li class="mb-2">
+                                <a id="izinMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" onclick="showPage('daftarIzinPage', 'izinMenu'); event.preventDefault();">
+                                    <i class="fas fa-calendar mr-2"></i>
+                                    Izin
+                                </a>
+                            </li>
+                            <li class="mb-2">
+                                <a id="lemburMenu"
+                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#"
+                                    onclick="showPage('daftarLemburPage', 'lemburMenu'); event.preventDefault();">
+
+                                    <i class="fas fa-calendar mr-2"></i>
+                                    Lembur
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="p-4">
+                <button class="w-full bg-red-500 text-white p-2 rounded">
+                    <i class="fas fa-sign-out-alt mr-2"></i>
+                    Logout
+                </button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</body>
+
+</html>

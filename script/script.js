@@ -12,6 +12,10 @@ function loadContent(page) {
         });
 }
 
+function refresh() {
+    location.reload();
+}
+
 
 // sidebar
 const toggleButton = document.getElementById('toggleButton');

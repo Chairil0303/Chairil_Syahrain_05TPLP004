@@ -5,3 +5,30 @@
 .sidebar-hidden {
     transform: translateX(-100%);
 }
+
+div.bar {
+    box-shadow: 3px -1px 15px -3px rgba(255, 255, 255, 0.48);
+    -webkit-box-shadow: 3px -1px 15px -3px rgba(255, 255, 255, 0.48);
+    -moz-box-shadow: 3px -1px 15px -3px rgba(255, 255, 255, 0.48);
+    transition: .5s;
+}
+
+div.bar:hover {
+    box-shadow: 3px -1px 76px 0px rgba(255, 255, 255, 0.6);
+    -webkit-box-shadow: 3px -1px 76px 0px rgba(255, 255, 255, 0.6);
+    -moz-box-shadow: 3px -1px 76px 0px rgba(255, 255, 255, 0.6);
+}
+
+div.dashboardPage {
+    padding: 0;
+}
+
+div.dashboard-card {
+    transition: .5s;
+}
+
+div.dashboard-card:hover {
+    box-shadow: 3px -1px 76px 0px rgba(21, 163, 73, 0.6);
+    -webkit-box-shadow: 3px -1px 76px 0px rgba(21, 163, 73, 0.6);
+    -moz-box-shadow: 3px -1px 76px 0px rgba(21, 163, 73, 0.6);
+}

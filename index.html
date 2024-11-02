@@ -34,8 +34,8 @@
                     <nav>
                         <ul>
                             <li class="mb-2">
-                                <a id="dashboardMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                <a id="dashboardMenu" onclick="loadContent('dashboard'); setActive('dashboard')"
+                                    class="sidebar-item active menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
                                     href="#" onclick="loadContent('pages/dashboard')">
                                     <i class="fas fa-tachometer-alt mr-2"></i>
                                     Dashboard
@@ -45,25 +45,25 @@
                         <p class="font-semibold text-gray-700 mt-4 mb-2">MENU KARYAWAN</p>
                         <ul>
                             <li class="mb-2">
-                                <a id="karyawanMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/datakaryawan')">
+                                <a id="karyawanMenu" onclick="loadContent('pages/datakaryawan'); setActive('karyawan')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#">
                                     <i class="fas fa-users mr-2"></i>
                                     Karyawan
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a id="jabatanMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/jabatan')">
+                                <a id="jabatanMenu" onclick="loadContent('pages/jabatan'); setActive('jabatan')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#">
                                     <i class="fas fa-briefcase mr-2"></i>
                                     Jabatan
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a id="divisiMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/divisi')">
+                                <a id="divisiMenu" onclick="loadContent('pages/divisi'); setActive('divisi')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#">
                                     <i class="fas fa-building mr-2"></i>
                                     Divisi
                                 </a>
@@ -73,9 +73,9 @@
                         <ul>
                             <li class="mb-2">
 
-                                <a id="absensiMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/absenkaryawan')" event.preventDefault();">
+                                <a id="absensiMenu" onclick="loadContent('pages/absenkaryawan'); setActive('absensi')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" event.preventDefault();">
 
                                     <i class="fas fa-calendar mr-2"></i>
                                     Absensi
@@ -84,17 +84,17 @@
 
                             </li>
                             <li class="mb-2">
-                                <a id="izinMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/daftarizin')" event.preventDefault();>
+                                <a id="izinMenu" onclick="loadContent('pages/daftarizin'); setActive('izin')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" event.preventDefault();>
                                     <i class="fas fa-calendar mr-2"></i>
                                     Izin
                                 </a>
                             </li>
                             <li class="mb-2">
-                                <a id="lemburMenu"
-                                    class="menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
-                                    href="#" onclick="loadContent('pages/daftarlembur')" event.preventDefault();>
+                                <a id="lemburMenu" onclick="loadContent('pages/daftarlembur'); setActive('lembur')"
+                                    class="sidebar-item menu-item flex items-center p-2 text-gray-700 hover:bg-gray-200 rounded"
+                                    href="#" event.preventDefault();>
 
                                     <i class="fas fa-calendar mr-2"></i>
                                     Lembur

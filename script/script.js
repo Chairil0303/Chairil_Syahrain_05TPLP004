@@ -20,3 +20,18 @@ const sidebar = document.getElementById('sidebar');
 toggleButton.addEventListener('click', () => {
     sidebar.classList.toggle('sidebar-hidden');
 });
+
+// aktif sidebar
+function setActive(menuId) {
+    // Ambil semua elemen dengan kelas 'sidebar-item'
+    const sidebarItems = document.querySelectorAll('.sidebar-item');
+
+    // Hapus kelas 'active' dari semua item
+    sidebarItems.forEach(item => {
+        item.classList.remove('active');
+    });
+
+    // Tambahkan kelas 'active' hanya ke item yang diklik
+    const activeItem = document.getElementById(menuId);
+    activeItem.classList.add(' active ');
+}

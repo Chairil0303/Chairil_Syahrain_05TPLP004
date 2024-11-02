@@ -6,6 +6,23 @@
     transform: translateX(-100%);
 }
 
+
+/* Gaya dasar untuk item sidebar */
+.sidebar-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #333;
+}
+
+/* Warna hijau untuk item yang aktif */
+.sidebar-item.active {
+    background-color: #28a745;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
 div.bar {
     box-shadow: 3px -1px 15px -3px rgba(255, 255, 255, 0.48);
     -webkit-box-shadow: 3px -1px 15px -3px rgba(255, 255, 255, 0.48);

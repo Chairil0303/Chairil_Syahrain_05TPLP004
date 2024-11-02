@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <title>Daftar Izin Karyawan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-8">
+    <div class="container mx-auto bg-white p-6 rounded shadow">
+        <div class="flex justify-between items-center mb-4">
+            <h1 class="text-2xl font-semibold">Daftar Izin Karyawan</h1>
+            <button class="bg-blue-500 text-white px-4 py-2 rounded flex items-center">
+                <i class="fas fa-check mr-2"></i> Ubah Status
+            </button>
+        </div>
+        <div class="flex justify-between items-center mb-4">
+            <div>
+                <label for="entries" class="mr-2">Show</label>
+                <select id="entries" class="border rounded p-1">
+                    <option>10</option>
+                    <option>25</option>
+                    <option>50</option>
+                    <option>100</option>
+                </select>
+                <span class="ml-2">entries</span>
+            </div>
+            <div>
+                <label for="search" class="mr-2">Search:</label>
+                <input id="search" type="text" class="border rounded p-1">
+            </div>
+        </div>
+        <table class="min-w-full bg-white">
+            <thead>
+                <tr>
+                    <th class="py-2 border-b">No <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Nama <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Izin <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Tanggal <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Jam <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Keterangan <i class="fas fa-sort"></i></th>
+                    <th class="py-2 border-b">Status <i class="fas fa-sort"></i></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="py-2 border-b text-center">1</td>
+                    <td class="py-2 border-b text-center">Yovan Fiqri</td>
+                    <td class="py-2 border-b text-center">Pulang Lebih Awal</td>
+                    <td class="py-2 border-b text-center">2023-05-10</td>
+                    <td class="py-2 border-b text-center">10:35:00</td>
+                    <td class="py-2 border-b text-center">123</td>
+                    <td class="py-2 border-b text-center">Menunggu Konfirmasi</td>
+                </tr>
+                <tr>
+                    <td class="py-2 border-b text-center">2</td>
+                    <td class="py-2 border-b text-center">Yovan Fiqri</td>
+                    <td class="py-2 border-b text-center">Datang Terlambat</td>
+                    <td class="py-2 border-b text-center">2023-05-09</td>
+                    <td class="py-2 border-b text-center">11:04:00</td>
+                    <td class="py-2 border-b text-center">sakit</td>
+                    <td class="py-2 border-b text-center">Menunggu Konfirmasi</td>
+                </tr>
+                <tr>
+                    <td class="py-2 border-b text-center">3</td>
+                    <td class="py-2 border-b text-center">Yovan Fiqri</td>
+                    <td class="py-2 border-b text-center">Datang Terlambat</td>
+                    <td class="py-2 border-b text-center">2023-04-30</td>
+                    <td class="py-2 border-b text-center">01:35:00</td>
+                    <td class="py-2 border-b text-center">sakit</td>
+                    <td class="py-2 border-b text-center">Menunggu Konfirmasi</td>
+                </tr>
+                <tr>
+                    <td class="py-2 border-b text-center">4</td>
+                    <td class="py-2 border-b text-center">Yovan Fiqri</td>
+                    <td class="py-2 border-b text-center">Datang Terlambat</td>
+                    <td class="py-2 border-b text-center">2023-04-29</td>
+                    <td class="py-2 border-b text-center">09:54:00</td>
+                    <td class="py-2 border-b text-center">Batuk</td>
+                    <td class="py-2 border-b text-center">Menunggu Konfirmasi</td>
+                </tr>
+                <tr>
+                    <td class="py-2 border-b text-center">5</td>
+                    <td class="py-2 border-b text-center">Yovan Fiqri</td>
+                    <td class="py-2 border-b text-center">Datang Terlambat</td>
+                    <td class="py-2 border-b text-center">2023-04-29</td>
+                    <td class="py-2 border-b text-center">10:49:00</td>
+                    <td class="py-2 border-b text-center">Macet</td>
+                    <td class="py-2 border-b text-center">Menunggu Konfirmasi</td>
+                </tr>
+                <tr>
+                    <td class="py-2 border-b text-center">6</td>
+                    <td class="py-2 border-b text-center">Renate Nindya</td>
+                    <td class="py-2 border-b text-center">Datang Terlambat</td>
+                    <td class="py-2 border-b text-center">2023-04-29</td>
+                    <td class="py-2 border-b text-center">09:00:00</td>
+                    <td class="py-2 border-b text-center">sakit</td>
+                    <td class="py-2 border-b text-center">Disetujui</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</body>
+
+</html>

@@ -1,5 +1,11 @@
-**Sistem Informasi Manajemen Karyawan**
-Untuk menampilkan proyek ini dengan benar, **gunakan web server atau ekstensi Live Server ** di editor kode (seperti Visual Studio Code). Membuka file HTML langsung di browser mungkin tidak akan menampilkan semua elemen UI dengan benar karena masalah lintasan file.
+**UI Sistem Informasi Manajemen Karyawan**
+
+preview : https://chairil0303.github.io/Chairil_Syahrain_05TPLP004/
+
+Untuk menampilkan proyek ini dengan benar, 
+**gunakan web server atau ekstensi Live Server**
+
+Membuka file HTML langsung di browser mungkin tidak akan menampilkan semua elemen UI dengan benar karena masalah lintasan file.
 Proyek ini adalah tampilan antarmuka pengguna (UI) untuk sistem manajemen karyawan. Sistem ini dirancang untuk memudahkan akses dan pengelolaan data karyawan melalui tampilan dashboard yang interaktif. Proyek ini hanya berfokus pada desain UI tanpa penerapan fungsionalitas.
 
 Fitur Utama
